@@ -64,3 +64,7 @@ INSERT INTO Employee (emp_id, name, age, salary, department_id, hire_date) VALUE
 INSERT INTO Project (project_id, name, department_id) VALUES
 (8, 'Project Theta', 1),
 (9, 'Project Iota', NULL);  -- Project without a department
+
+SELECT * FROM Department;
+SELECT * FROM Employee;
+SELECT * FROM Project;
